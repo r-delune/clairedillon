@@ -11,8 +11,8 @@
     "generate": "nuxt generate",
     "test": "jest",
     "deploy": "gh-pages -d dist",
-    "mupdate": "git add . && git commit -m 'update' && git push origin master && gh-pages -d dist",
-    "master": "git push origin master && gh-pages -d dist"
+    "mupdate": "git add . && git commit -m 'update' && git push origin master",
+    "master": "git push origin master"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
