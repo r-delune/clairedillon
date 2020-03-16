@@ -1,13 +1,11 @@
 backend:
   name: test
+  branch: master
+
 media_folder: resources/nuxt/static/images
 public_folder: /images
 
 collections:
-
-  #
-  # GENERAL PAGES #######################################################
-  #
   - label: 'General'
     name: 'general'
     format: 'json'
@@ -17,5 +15,5 @@ collections:
         name: 'home'
         file: 'resources/nuxt/assets/content/home.json'
         fields:
-          - { label: 'Title', name: 'test_tile', widget: 'string' }
-          - { label: 'Body', name: 'test_body', widget: 'markdown' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
