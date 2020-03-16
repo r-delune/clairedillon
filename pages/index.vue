@@ -23,6 +23,13 @@
         >
           {{ content.link_2.text }}
         </a>
+        <a
+          href="https://quizzical-mestorf-8273a0.netlify.com/admin/"
+          target="_blank"
+          class="button--grey"
+        >
+          Admin Portal
+        </a>
       </div>
     </div>
   </div>
